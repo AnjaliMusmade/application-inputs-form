@@ -100,18 +100,18 @@ export default class InputBoxFocusClass extends C {
         <hr />
         <h2>Summary:</h2>
         <br />
-        First Name:<label>{this.state.firstname}</label>
+        First Name :&nbsp;<label>{this.state.firstname}</label>
         <br />
-        Last Name:<label>{this.state.lastname}</label>
+        Last Name :&nbsp;&nbsp;<label>{this.state.lastname}</label>
         <br />
-        Address:<label>{this.state.address}</label>
+        Address :&nbsp;&nbsp;<label>{this.state.address}</label>
         <br />
-        Is Billing Address Same?
+        Is Billing Address Same :&nbsp;&nbsp;
         <label>{this.state.sameAddress ? "True" : "False"}</label>
         <br />
-        Gender:<label>{this.state.gender}</label>
+        Gender :&nbsp;&nbsp;<label>{this.state.gender}</label>
         <br />
-        State:<label>{this.state.state}</label>
+        State :&nbsp;&nbsp;<label>{this.state.state}</label>
         <hr />
       </div>
     );
